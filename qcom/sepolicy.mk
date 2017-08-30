@@ -4,4 +4,5 @@
 #
 
 BOARD_SEPOLICY_DIRS += \
-    device/potato/sepolicy/qcom
+    device/potato/sepolicy/qcom/common \
+    device/potato/sepolicy/qcom/$(TARGET_BOARD_PLATFORM)
